@@ -360,7 +360,7 @@ Transform:
   m_GameObject: {fileID: 481148154}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -1.642028e-15, w: 1}
-  m_LocalPosition: {x: 0.7818008, y: -0.2716053, z: 0.5514126}
+  m_LocalPosition: {x: 0.7818008, y: -0.30499995, z: 0.5514126}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -722,7 +722,7 @@ Transform:
   m_GameObject: {fileID: 793356153}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 6.2398463e-22, w: 1}
-  m_LocalPosition: {x: -0.7815213, y: -0.27160537, z: -0.57228804}
+  m_LocalPosition: {x: -0.7815213, y: -0.305, z: -0.57228804}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -872,7 +872,7 @@ Transform:
   m_GameObject: {fileID: 1009261021}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -1.642028e-15, w: 1}
-  m_LocalPosition: {x: 0.78180045, y: -0.27160537, z: -0.5722885}
+  m_LocalPosition: {x: 0.78180045, y: -0.305, z: -0.5722885}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1330,7 +1330,7 @@ Transform:
   m_GameObject: {fileID: 1527933570}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -1.642028e-15, w: 1}
-  m_LocalPosition: {x: -0.7815211, y: -0.27160525, z: 0.5514126}
+  m_LocalPosition: {x: -0.7815211, y: -0.3049999, z: 0.5514126}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2188,6 +2188,7 @@ GameObject:
   - component: {fileID: 3403720311229871915}
   - component: {fileID: 4490804233191753381}
   - component: {fileID: 950533918874253129}
+  - component: {fileID: 4490804233191753382}
   m_Layer: 0
   m_Name: TankFree_Wheel_b_right
   m_TagString: Untagged
@@ -2313,6 +2314,7 @@ GameObject:
   - component: {fileID: 6073202471948074297}
   - component: {fileID: 5945720340382378337}
   - component: {fileID: 8622918816259046908}
+  - component: {fileID: 8622918816259046909}
   m_Layer: 0
   m_Name: TankFree_Wheel_f_right
   m_TagString: Untagged
@@ -2328,6 +2330,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736040777648320589}
   m_Mesh: {fileID: 2424742389688573532, guid: 3d210b2be9d4b9144b53828dfc2e73e3, type: 3}
+--- !u!114 &4490804233191753382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736040777648320589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da2cdefd6a4269ad707af72143d957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 1009261023}
+  _mesh: {fileID: 3403720311229871915}
 --- !u!4 &5531413021969690484
 Transform:
   m_ObjectHideFlags: 0
@@ -2377,6 +2393,7 @@ GameObject:
   - component: {fileID: 7062654360921862213}
   - component: {fileID: 848015899919729278}
   - component: {fileID: 2414360352530715196}
+  - component: {fileID: 7062654360921862214}
   m_Layer: 0
   m_Name: TankFree_Wheel_b_left
   m_TagString: Untagged
@@ -2405,6 +2422,7 @@ GameObject:
   - component: {fileID: 776044023859191638}
   - component: {fileID: 8767936780014617470}
   - component: {fileID: 8767936780014617469}
+  - component: {fileID: 8767936780014617473}
   - component: {fileID: 8767936780014617472}
   - component: {fileID: 8767936780014617471}
   m_Layer: 0
@@ -2429,6 +2447,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8767936780014617468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7062654360921862214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6906931329568740883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da2cdefd6a4269ad707af72143d957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 793356155}
+  _mesh: {fileID: 7062654360921862213}
 --- !u!1 &7177804282348384085
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,6 +2472,7 @@ GameObject:
   - component: {fileID: 9047790242148608956}
   - component: {fileID: 8336396569881950079}
   - component: {fileID: 3942282404248482392}
+  - component: {fileID: 9047790242148608957}
   m_Layer: 0
   m_Name: TankFree_Wheel_f_left
   m_TagString: Untagged
@@ -2602,6 +2635,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8622918816259046909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4265616124865651550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da2cdefd6a4269ad707af72143d957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 481148156}
+  _mesh: {fileID: 6073202471948074297}
 --- !u!1 &8660251332049990627
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,15 +2751,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _wheels:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _skidAudioSource: {fileID: 0}
-  _transmission: {fileID: 0}
+  - {fileID: 9047790242148608957}
+  - {fileID: 8622918816259046909}
+  - {fileID: 7062654360921862214}
+  - {fileID: 4490804233191753382}
+  _skidAudioSource: {fileID: 8767936780014617473}
+  _transmission: {fileID: 11400000, guid: 890759f38172ca045b0ba1ff8dd1d76f, type: 2}
   _maxSteerAngle: 25
-  _maxHandbrakeTorque: 3.4028235e+38
-  _centreOfMass: {x: 0, y: 0, z: 0}
+  _maxHandbrakeTorque: 1000
+  _centreOfMass: {x: 0, y: -0.3, z: 0}
   _downforce: 100
   _slipLimit: 0.3
   _reverseMult: 0.4
@@ -2733,6 +2780,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _accelerationPower: 1
   _fireDelaySec: 1
+--- !u!82 &8767936780014617473
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6987706877013783757}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &9047790242148608956
 Transform:
   m_ObjectHideFlags: 0
@@ -2748,6 +2891,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8767936780014617468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9047790242148608957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7177804282348384085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da2cdefd6a4269ad707af72143d957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 1527933572}
+  _mesh: {fileID: 9047790242148608956}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
