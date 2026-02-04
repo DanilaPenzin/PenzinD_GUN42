@@ -846,7 +846,7 @@ GameObject:
   - component: {fileID: 3408473813613712586}
   - component: {fileID: 1577618133478977187}
   - component: {fileID: 3559880001451512633}
-  - component: {fileID: 3933149152097120288}
+  - component: {fileID: 8311161270894255754}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   _maxSpeedFOV: 200
   _fov: {x: 40, y: 40}
   _debugTorque: 0
---- !u!114 &3933149152097120288
+--- !u!114 &8311161270894255754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1109,11 +1109,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6870216660473436205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b3e21422e254466810369536a65b19b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6213543e868e4a008eaa9de7f85ad61e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _accelerationPower: 1
-  _fireDelaySec: 1
+  _rotateSpeed: 1
 --- !u!1 &7144025059135848982
 GameObject:
   m_ObjectHideFlags: 0
